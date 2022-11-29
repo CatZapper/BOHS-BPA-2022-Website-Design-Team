@@ -1,3 +1,25 @@
+ul.navbar {
+  list-style-type: none;
+}
+
+ul.navbar li {
+  background-color: dimGrey;
+  padding: 12px;
+  margin: 0;
+  float: left;
+}
+
+ul.navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+ul.navbar li:hover {
+  background-color: rgb(227, 193, 151);
+  color: white;
+}
+
 html {background-color: rgb(21, 34, 56);}
 h1{color: rgb(227, 193, 151 ); font:Oldtown.; font-family:cursive;}
 h2{color: rgb(227, 193, 151)}
@@ -8,3 +30,4 @@ h6{color: rgb(227, 193, 151)}
 p{color: rgb(227, 193, 151)}
 a{color:red;}
 li{color:  rgb(222, 184, 135)}
+
