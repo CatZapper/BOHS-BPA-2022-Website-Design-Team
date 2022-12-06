@@ -61,7 +61,9 @@ header ul li a{
   background: url(placeholder.png)
   background-size: cover;
 } 
-header.sticky .logo,
+header.sticky .logo{
+  content: url("https://github.com/BOHS-BPA-2022-Website-Design-Team/BOHS-BPA-2022-Website-Design-Team/blob/347840d4bedd4feacfbcd7865f38a0ef5e955352/BPA%20Files/LogoCircle.png");
+}
 header.sticky ul li a{
   color: #000;
 }
