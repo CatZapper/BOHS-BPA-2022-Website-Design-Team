@@ -7,6 +7,10 @@
   font-family: 'arial';
 }
 
+img{
+  height: 100%;
+  width: auto;
+}
 /* navbar */
 
 body{
