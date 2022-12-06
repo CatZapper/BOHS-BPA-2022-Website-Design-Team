@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     text-transform: capitalize;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    background: #3498db;
 }
 body{
     min-height: 100vh;
