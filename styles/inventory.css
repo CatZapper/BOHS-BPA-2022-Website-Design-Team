@@ -74,19 +74,19 @@ body{
     padding: 4px 10px;
     border-radius: 2px;
 }
-.business .category-name{
+.fun .category-name{
     background: #00a7ea;
 }
-.culture .category-name{
+.truck .category-name{
     background: #f03250;
 }
-.politics .category-name{
+.van .category-name{
     background: #f0544f;
 }
-.finance .category-name{
+.convertible .category-name{
     background: #2c2a4a;
 }
-.sports .category-name{
+.fun_sized .category-name{
     background: #a1e44d;
 }
 .post-content{
@@ -119,7 +119,7 @@ body{
     padding: 8px 15px;
     display: block;
     margin: 5px auto;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'arial';
     font-size: 15px;
     cursor: pointer;
     border: 1px solid #292929;
