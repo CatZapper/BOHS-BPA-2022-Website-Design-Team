@@ -5,14 +5,14 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  font-family: 'arial';
+/*   font-family: 'arial'; */
   box-sizing: border-box;
 }
 
 /* navbar */
 
 body{
-  background: white; 
+  background: #666; 
   min-height: 200vh;
 }
 header{
@@ -29,12 +29,12 @@ header{
 }
 header.sticky{
   padding: 5px 100px;
-  background: #666;
+  background: white;
 }
 header .logo{
   position: relative;
   font-weight: 700;
-  color: #000;
+  color: white;
   text-decoration: none;
   font-size: 2em;
   text-transform: uppercase;
@@ -49,7 +49,7 @@ header ul li a{
   position: relative;
   margin: 0 15px;
   text-decoration: none;
-  color: #000;
+  color: white;
   Letter-spacing: 2px;
   font-weight: 500px;
   transition: 0.6s;
@@ -65,7 +65,7 @@ header.sticky .logo{
   content: url("/BPA Files/LogoCircle.png");
 }
 header.sticky ul li a{
-  color: #666;
+  color: white;
 }
 
 /* footer */
@@ -104,7 +104,7 @@ header.sticky ul li a{
     margin-right: 0;
 }
 .inner_footer .footer_third h1{
-    font-family: 'arial';
+/*     font-family: 'arial'; */
     font-size: 22px;
     color: #666;
     display: block;
@@ -112,7 +112,7 @@ header.sticky ul li a{
     margin-bottom: 20px;  
 }
 .inner_footer .footer_third a{
-    font-family: 'arial';
+/*     font-family: 'arial'; */
     font-size: 22px;
     color: #666;
     display: block;
@@ -128,7 +128,7 @@ header.sticky ul li a{
 }
 .inner_footer .footer_third span{
     color: #666;
-    font-family: 'arial';
+/*     font-family: 'arial'; */
     font-size: 16px;
     font-weight: 200;
     display: block;
@@ -143,5 +143,4 @@ header.sticky ul li a{
 .inner_footer .footer_third{
     width: 100%;
     margin-bottom: 30px;
-}
 }
