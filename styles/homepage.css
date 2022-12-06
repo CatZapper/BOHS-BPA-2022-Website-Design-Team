@@ -11,14 +11,6 @@
     padding-bottom: 70px;
     background: #3498db;
 }
-body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 70px;
-    background: #3498db;
-}
 .container{
     position: relative;
     perspective: 1000px;
