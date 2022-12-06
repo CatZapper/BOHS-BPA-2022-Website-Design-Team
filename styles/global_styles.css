@@ -1,12 +1,12 @@
 /* global Styles*/
 
 *{
-margin: 0;
-padding: 0;
-list-style: none;
-text-decoration: none;
-font-family: 'arial';
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'arial';
+  box-sizing: border-box;
 }
 
 /* navbar */
@@ -62,7 +62,7 @@ header ul li a{
   background-size: cover;
 } 
 header.sticky .logo{
-  content: url("https://github.com/BOHS-BPA-2022-Website-Design-Team/BOHS-BPA-2022-Website-Design-Team/blob/347840d4bedd4feacfbcd7865f38a0ef5e955352/BPA%20Files/LogoCircle.png");
+  content: url("/BPA Files/LogoCircle.png");
 }
 header.sticky ul li a{
   color: #666;
