@@ -84,14 +84,14 @@ header.sticky ul li a{
 }  
 .inner_footer{
     display: block;
-    margin: 0 auto;
+    margin: auto;
     width: 1100px;
     height: 100%;
 }
 .inner_footer .logo_container{
     width: 35%;
     float: left;
-    height: 100%
+    height: 100%;
     display: block;
 }
 .inner_footer .logo_container img{
@@ -126,7 +126,7 @@ header.sticky ul li a{
     padding-bottom: 5px;
 }
 .inner_footer .footer_third li{
-    display: inline-bloc;
+    display: inline-block;
     padding: 0.5px;
     font-size: 20px;
 }
