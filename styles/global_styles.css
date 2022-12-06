@@ -5,8 +5,8 @@
   padding: 0;
 /*   list-style: none;
   text-decoration: none; */
-  font-family: 'arial';
   box-sizing: border-box;
+  font-family: 'arial';
 }
 
 /* navbar */
@@ -34,13 +34,19 @@ header.sticky{
 header .logo{
   position: relative;
   font-weight: 700;
-  color: white;
+  color: #fff;
   text-decoration: none;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
   transition:  0.6s;
 }
+header ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
 header ul li {
   position: relative;
   list-style: none;
@@ -49,8 +55,8 @@ header ul li a{
   position: relative;
   margin: 0 15px;
   text-decoration: none;
-  color: white;
-  Letter-spacing: 2px;
+  color: #fff;
+  letter-spacing: 2px;
   font-weight: 500px;
   transition: 0.6s;
 }  
