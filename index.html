@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
         <title>BP Auto sales</title>
         <link rel="stylesheet" type="text/css" href="styles/global_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/homepage.css">
         <script src="https://kit.fontawesome.com/a5cab20f4d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -30,11 +31,108 @@
 this is the body
 <br>
 <br>
+<!-- Reviews section -->
+<div class=" "slide-container">
+	<div class="slide">
+		<i class="fa-sharp fa-solid fa-quote-right"></i>
+		<div class="user">
+			<img src="" alt">
+			<div class="user-info">
+				<h3>John doe</h3>
+				<div class="stars">
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+				</div>
+			</div>
+		</div>
+		<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nostrum autem quaerat animi tenetur corporis facere cum fugit, suscipit quos quibusdam dolor ab quia omnis repellendus iure aspernatur eligendi eius.</p> 
+	</div>
+
+	<div class="slide">
+		<i class="fa-sharp fa-solid fa-quote-right"></i>
+		<div class="user">
+			<img src="" alt">
+			<div class="user-info">
+				<h3>John doe</h3>
+				<div class="stars">
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+				</div>
+			</div>
+		</div>
+		<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nostrum autem quaerat animi tenetur corporis facere cum fugit, suscipit quos quibusdam dolor ab quia omnis repellendus iure aspernatur eligendi eius.</p> 
+	</div>
+
+	<div class="slide">
+		<i class="fa-sharp fa-solid fa-quote-right"></i>
+		<div class="user">
+			<img src="" alt">
+			<div class="user-info">
+				<h3>John doe</h3>
+				<div class="stars">
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+				</div>
+			</div>
+		</div>
+		<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nostrum autem quaerat animi tenetur corporis facere cum fugit, suscipit quos quibusdam dolor ab quia omnis repellendus iure aspernatur eligendi eius.</p> 
+	</div>
+
+	<div class="slide">
+		<i class="fa-sharp fa-solid fa-quote-right"></i>
+		<div class="user">
+			<img src="" alt">
+			<div class="user-info">
+				<h3>John doe</h3>
+				<div class="stars">
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-solid fa-star"></i>
+					<i class="fa-regular fa-star"></i>
+				</div>
+			</div>
+		</div>
+		<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nostrum autem quaerat animi tenetur corporis facere cum fugit, suscipit quos quibusdam dolor ab quia omnis repellendus iure aspernatur eligendi eius.</p> 
+	</next
+
+	<i id= "next" class="fa-solid fa-arrow-right" onclick="next()"></i>
+	<i id= "prev" class="fa-solid fa-arrow-left" onclick="prev()"></i>
+
+
+</div>
+
+<script>
+let slides = document.querySelectorAll('.slide-container');
+let index = 0;
+
+function next(){
+	slides[index].classList.remove('active');
+	index = (index + 1) % slides.length;
+	slides[index].classList.add('active');
+}
+function prev(){
+	slides[index].classList.remove('active');
+	index = (index - 1 + slides.length) % slides.length;
+	slides[index].classList.add('active');
+}
+</script>
+								     
+
 </body>
-	
-	
 <footer>
-this is the footer
+<br>
+	this is the footer
+<br>
 	</div class = "inner_footer">
 		</div class = "logo_container">
 			<a href="https://github.com/BOHS-BPA-2022-Website-Design-Team/BOHS-BPA-2022-Website-Design-Team/blob/347840d4bedd4feacfbcd7865f38a0ef5e955352/BPA%20Files/LogoCircle.png" class="logo">Logo</a>
