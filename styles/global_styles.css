@@ -80,7 +80,9 @@ footer{
   overflow: hidden;
   padding: 70px 0;
   box-sizing: border-box;
-  background-color: #EE4B2B;
+  background-color: #666;
+  border: 10px;
+  border-color: gold; 
 }  
 footer inner_footer{
   display: block;
