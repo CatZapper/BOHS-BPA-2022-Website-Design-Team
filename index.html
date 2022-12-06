@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!-- add reviews section -->
 	<head>
 		<title>BP Auto sales</title>
 		
@@ -9,257 +10,46 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-        <!-- Bootstrap JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    </head>
+        </head>
 		
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<style>
-            ul.navbar {
-                list-style-type: none;
-            }
-            
-            ul.navbar li {
-                background-color: dimGrey;
-                padding: 12px;
-                margin: 0;
-                float: left;
-            }
-            
-            ul.navbar li a {
-                text-decoration: none;
-                color: white;
-                padding: 15px;
-            }
-            
-            ul.navbar li:hover {
-                background-color: rgb(227, 193, 151);
-                color: white;
-            }
-            
-            
-            
-            .squares-wrapper-1 {
-                display:flex;
-                justify-content: right;
-                }
-            
-            .squares-wrapper-2 {
-                display:flex;
-                justify-content: left;
-                }
- 
-            .squares-wrapper > .squares {
-                width: 1000px;
-                }
- 
-            .squares-wrapper > .squares > .square{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                margin-top: -4px;
-            }
- 
-            .square > .image-wrapper-1  img{
-                width: 45%;
-                height: 400px;
-                object-fit: cover;
-                float: left;    
-                margin: 15px 15px 0px 15px;
-            }
-            .square > .image-wrapper-2  img{
-                width: 45%;
-                height: 400px;
-                object-fit: cover;
-                float: right;    
-                margin: 15px 15px 0px 15px;
-            }
- 
-            .square > .square-text-wrapper {
-                display:flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                padding: 42px;
-            }
- 
-            .square > .square-text-wrapper h1 {
-                /*font-family: " ";*/
-                color:#cea135;
-                font-weight: 900;
-            }
+		<link rel="stylesheet" type="text/css" href="styles/global_styles.css">
 
-        </style>
 	</head>
 
 	<body>
-		<ul class="navbar">
-            <li><a href="main-event.html">Conference Guidelines</a></li>
-            <li><a href="meals.html">Dining</a></li>
-            <li><a href="hotels.html">Hotels</a></li>
-            <li><a href="overview.html">Orlando's Attractions</a></li>
-            <li><a href="transportation.html">Transport</a></li>
-            <li><a href="webinfo.html">Design Info</a></li>
-        </ul>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="squares">
-            <div class="square">
-                <div class="image-wrapper-1">
-                    <!--img -->
-                    <a href="main-event.html"><img src="https://i.ytimg.com/vi/7k-xgwzRIq4/maxresdefault.jpg"/></a>
-                </div>
-                <div class="square-text-wrapper-1">
-                    <!--add text-->
-                    <h2>Are you interested in conference rules and regulations?</h2>
-                    <h3>If so click <a href="main-event.html">here,</a> or on the image, to learn more about how to not get disqualified for poor choices or dress code violations. </h3>
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="squares">
-            <div class="square">
-                <div class="image-wrapper-2">
-                    <!--img -->
-                    <a href="meals.html"><img src="https://antoniosonline.com/wp-content/uploads/2017/10/Dining-Room-Slider-Upstairs-final-10-3-2017.jpg"/></a>
-                </div>
-                <div class="square-text-wrapper-2">
-                    <!--add text-->
-                    <h2>Are you interested in finding dinner tonight?</h2>
-                    <h3>If so click <a href="meals.html">here,</a> or on the image, to find the meal of your dreams, provided your dreams fell within what restaurants we thought would be worth handing our money over to in return for delectable dinners. </h3>
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="squares">
-            <div class="square">
-                <div class="image-wrapper-1">
-                    <!--img -->
-                    <a href="hotels.html"><img src="https://cf.bstatic.com/images/hotel/max1280x900/129/129131486.jpg"/></a>
-                </div>
-                <div class="square-text-wrapper-1">
-                    <!--add text-->
-                    <h2>Are you interested in finding hotels to stay for the duration of your stay?</h2>
-                    <h3>If so click <a href="hotels.html">here,</a> or on the image, to find hotels that have been approved by even the most persnickety of hotel snobs, please not that the prices on the hotels were last updated on 01/07/21 and as such may not represent the current booking prices, we apologize that we cannot see the future, but we do our best. </h3>
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="squares">
-            <div class="square">
-                <div class="image-wrapper-2">
-                    <!--img -->
-                    <a href="overview.html"><img src="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2019/06/sget46758y6ui7.jpg"/></a>
-                </div>
-                <div class="square-text-wrapper-2">
-                    <!--add text-->
-                    <h2>Are you interested in finding some tourist attractions?</h2>
-                    <h3>If so click <a href="overview.html">here,</a> or on the image, and you will find a list of the tourist attractions guaranteed to satisfy any chapter member with a wide variety of options to choose from including gator parks, theme parks, gardens, and museums there is sure to be something for any chapter member to enjoy. </h3>
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="squares">
-            <div class="square">
-                <div class="image-wrapper-1">
-                    <!--img -->
-                    <a href="transportation.html"><img src="https://lirp-cdn.multiscreensite.com/51de5deb/dms3rep/multi/opt/image6+%281%29-1920w.JPG"/></a>
-                </div>
-                <div class="square-text-wrapper-1">
-                    <!--add text-->
-                    <h2>Are you interested in finding a ride back to the conference?</h2>
-                    <h3>If so click <a href="transportation.html">here,</a> or on the image, to find a list of all of the student friendly travel options, from cars, busses, trains, or limousines there will surely be a ride large enough for your chapter to travel to their intended destination </h3>
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="squares">
-            <div class="square">
-                <div class="image-wrapper-2">
-                    <!--img -->
-                    <a href="webinfo.html"><img src="https://cdn.pixabay.com/photo/2016/01/19/01/42/library-1147815_1280.jpg"/></a>
-                </div>
-                <div class="square-text-wrapper-2">
-                    <!--add text-->
-                    <h2>Are you interested in our works cited?</h2>
-                    <h3>If so you are a big nerd (but don't worry so are we) but if you want that works cited page click <a href="webinfo.html">here,</a> or on the image, and then you can see where we acquire our information for this website that benefits you, and probably some of your chapter members as well.</h3>
-                </div>
-            </div>
-        </div>
+		<header>
+            <a href="#" class="logo">Logo</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+            </ul>
+        </header>
+        <section class = "banner"></section>
+        <script type="text/javascript">
+            window.addEventListener("scroll", function()){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            }
+        </script>
+
+
+
+        <br>
+        <br>
+        this is te body
+        <br>
+        <br>
+
+
+
+
+
+
 	</div class= "footer">
 		</div class = "inner_footer">
 			</div class = "logo_container">
-				<img src = "footer/images/placeholder.png
+                <a href="#" class="logo">Logo</a>
 			</div>
 			
 			</div class = "footer_third">
