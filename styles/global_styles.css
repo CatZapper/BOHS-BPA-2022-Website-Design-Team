@@ -61,11 +61,9 @@ header ul li a{
   background: url(placeholder.png)
   background-size: cover;
 } 
-header.sticky .logo{
-  content: url("/BPA Files/LogoCircle.png");
-}
+header.sticky .logo,
 header.sticky ul li a{
-  color: white;
+  color: #666;
 }
 
 /* footer */
