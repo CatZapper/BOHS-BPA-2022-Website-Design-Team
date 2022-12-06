@@ -72,7 +72,7 @@ header.sticky ul li a{
 
 /* footer */
 
-.footer{
+footer{
   list-style: none;
   text-decoration: none;
   width: 100vw;
@@ -82,32 +82,32 @@ header.sticky ul li a{
   box-sizing: border-box;
   background-color: #EE4B2B;
 }  
-.inner_footer{
+footer inner_footer{
   display: block;
   margin: 0 auto;
   width: 1100px;
   height: 100%;
 }
-.inner_footer .logo_container{
+footer inner_footer logo_container{
   width: 35%;
   float: left;
   height: 100%;
   display: block;
 }
-.inner_footer .logo_container img{
+footer inner_footer logo_container img{
   width: 65px;
   height: auto;
 }
-.inner_footer .footer_third{
+footer inner_footer footer_third{
   width: calc(22% -20px);
   margin-right: 10px;
   float: left;
   height: 100%;
 }
-.inner_footer .footer_third:last-child{
+footer inner_footer footer_third:last-child{
   margin-right: 0;
 }
-.inner_footer .footer_third h1{
+footer inner_footer footer_third h1{
   font-family: 'arial';
   font-size: 22px;
   color: #fff;
@@ -115,7 +115,7 @@ header.sticky ul li a{
   width: 100%;
   margin-bottom: 20px;  
 }
-.inner_footer .footer_third a{
+footer inner_footer footer footer_third a{
   font-family: 'arial';
   font-size: 22px;
   color: #fff;
@@ -125,12 +125,12 @@ header.sticky ul li a{
   margin-bottom: 20px;  
   padding-bottom: 5px;
 }
-.inner_footer .footer_third li{
+footer inner_footer footer_third li{
   display: inline-block;
   padding: 0.5px;
   font-size: 20px;
 }
-.inner_footer .footer_third span{
+footer inner_footer footer_third span{
   color: #fff;
   font-family: 'arial';
   font-size: 16px;
@@ -140,11 +140,11 @@ header.sticky ul li a{
   padding-top: 20px;
 }
 @media(max-width: 600px){
-.footer .inner_footer{
+footer inner_footer{
   width: 90%;
 }
-.inner_footer .logo_container,
-.inner_footer .footer_third{
+footer inner_footer logo_container,
+footer inner_footer footer_third{
   width: 100%;
   margin-bottom: 30px;
 }
