@@ -72,6 +72,7 @@ header.sticky ul li a{
 footer{
   list-style: none;
   text-decoration: none;
+  list-style-type: none;
   width: 100vw;
   display: block;
   overflow: hidden;
