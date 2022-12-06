@@ -3,8 +3,8 @@
 *{
 margin: 0
 padding: 0
-list-style: none
-text-decoration: none;
+/* list-style: none
+text-decoration: none; */
 font-family: 'arial';
 box-sizing: border-box;
 }
@@ -12,7 +12,7 @@ box-sizing: border-box;
 /* navbar */
 
 body{
-  background: #fff; 
+  background: white; 
   min-height: 200vh;
 }
 header{
@@ -29,7 +29,7 @@ header{
 }
 header.sticky{
   padding: 5px 100px;
-  background: #000;
+  background: #666;
 }
 header .logo{
   position: relative;
@@ -65,7 +65,7 @@ header.sticky .logo{
   content: url("https://github.com/BOHS-BPA-2022-Website-Design-Team/BOHS-BPA-2022-Website-Design-Team/blob/347840d4bedd4feacfbcd7865f38a0ef5e955352/BPA%20Files/LogoCircle.png");
 }
 header.sticky ul li a{
-  color: #000;
+  color: #666;
 }
 
 /* footer */
@@ -76,7 +76,7 @@ header.sticky ul li a{
     overflow: hidden;
     padding: 70px 0;
     box-sizing: border-box;
-    background-color: #666;
+    background-color: #EE4B2B;
 }  
 .inner_footer{
     display: block;
@@ -106,7 +106,7 @@ header.sticky ul li a{
 .inner_footer .footer_third h1{
     font-family: 'arial';
     font-size: 22px;
-    color: white;
+    color: #666;
     display: block;
     width: 100%;
     margin-bottom: 20px;  
@@ -114,7 +114,7 @@ header.sticky ul li a{
 .inner_footer .footer_third a{
     font-family: 'arial';
     font-size: 22px;
-    color: white;
+    color: #666;
     display: block;
     font-weight: 200px;
     width: 100%;
@@ -127,7 +127,7 @@ header.sticky ul li a{
     font-size: 20px;
 }
 .inner_footer .footer_third span{
-    color: white;
+    color: #666;
     font-family: 'arial';
     font-size: 16px;
     font-weight: 200;
