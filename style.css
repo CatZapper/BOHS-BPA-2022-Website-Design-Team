@@ -6,7 +6,15 @@
     list-style: none;
     text-decoration: none;
     font-family: 'arial';
-}  
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    background: #3498db;
+}
 /* navbar */ 
 header{
     position: fixed;
@@ -71,16 +79,13 @@ header ul li a img{
   
   /* footer */
   
-footer{
-    list-style: none;
-    text-decoration: none;
-    list-style-type: none;
+.footer{
     width: 100vw;
     display: block;
     overflow: hidden;
     padding: 70px 0;
     box-sizing: border-box;
-    background-color: #666;
+    background-color: #181818a;
     border: 10px;
     border-color: gold; 
 }  
@@ -90,26 +95,26 @@ footer{
     width: 1100px;
     height: 100%;
 }
-.logo_container{
+.inner_footer .logo_container{
     width: 35%;
     float: left;
     height: 100%;
     display: block;
 }
-.logo_container img{
+.inner_footer .logo_container img{
     width: 65px;
     height: auto;
 }
-.footer_third{
-    width: calc(22% -20px);
+.inner_footer .footer_third{
+    width: calc(21.666666667% -20px);
     margin-right: 10px;
     float: left;
     height: 100%;
 }
-.footer_third:last-child{
+.inner_footer .footer_third:last-child{
     margin-right: 0;
 }
-.footer_third h1{
+.inner_footer .footer_third h1{
     font-family: 'arial';
     font-size: 22px;
     color: #fff;
@@ -117,17 +122,16 @@ footer{
     width: 100%;
     margin-bottom: 20px;  
 }
-.footer_third a{
+.inner_footer .footer_third a{
     font-family: 'arial';
-    font-size: 22px;
-    color: #fff;
+    font-size: 18px;
+    color: white;
     display: block;
-    font-weight: 200px;
-     width: 100%;
-    margin-bottom: 20px;  
+    font-weight: 200;
+    width: 100%;
     padding-bottom: 5px;
 }
-.footer_third li{
+.inner_footer .footer_third li{
     display: inline-block;
     padding: 0.5px;
     font-size: 20px;
@@ -141,33 +145,29 @@ footer{
     width: 100%;
     padding-top: 20px;
 }
-  @media(max-width: 600px){
-  footer .inner_footer{
-    width: 90%;
-}
-.footer_third{
-    width: 100%;
-    margin-bottom: 30px;
+@media(max-width: 600px){
+    footer .inner_footer{
+        width: 90%;
+    }
+    .inner_footer .logo_container,
+    .inner_footer .footer_third{
+        width: 100%;
+        margin-bottom: 30px;
+ }
 }  
       /*slides*/   
-.slide-container{
+.container .slide-container{
     font-family: 'arial';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-transform: capitalize;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 70px;
-    background: #3498db;
 }
 .container{
     position: relative;
     perspective: 1000px;
 }
-.slide-container .slide{
+.container .slide-container .slide{
     border-radius: 5px;
     background: #fff;
     box-shadow: 0 5px 10px #3337;
@@ -176,61 +176,62 @@ footer{
     margin: 10px;
     position: relative;
     transform-style: preserve-3d;
-    animation: 0.4s linear;
+    animation:slide .4s linear;
 }
   @keyframes slide{
     0%{
-    transform: rotateX(180deg);
-}
+         transform: rotateX(180deg);
+    }
 }
 .slide-container .slide > *{
-    animation: slideContent 0.2s linear 0.4s backwards;
+    animation: slideContent .2s linear .4s backwards;
 }
   @keyframes slideContent{
     0%{
     opacity: 0;
-    transform: scale(0.5);
+    transform: scale(.5);
 }
 }
-.slide-container .slide .icon{
+.container .slide-container .slide .icon{
     position: absolute;
     top: 10px; 
     right: 15px; 
     font-size: 90px;
     color: #3498db;
 }
-.slide-container .slide .user{
+.container .slide-container .slide .user{
     display: flex;
     align-items: center;
 }
-.slide-container .slide .img{
+.container .slide-container .slide .img{
     height: 100px;
     width: 100px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 10px;
 }
-.slide-container .slide .user .user-info{
+.container .slide-container .slide .user .user-info h3{
     color: #333;
     font-size: 20px;
 }
-.slide-container .slide .user .user-info .stars i{
+.container .slide-container .slide .user .user-info .stars i{
     color: #3498db;
     font-size: 15px;
 }
-.slide-container .slide .text{
+.container .slide-container .slide .text{
     color: #333;
     font-size: 14px;
     padding-top: 15px;
     font-style: italic;
 }
-.slide-container{
+.container .slide-container{
     display: none;
 }
-.slide-container .active{
+.container .slide-container.active{
     display: block;   
 }
-.container #next, #prev{
+.container #next,
+.container #prev{
     position: absolute;
     top: 50%;
     transform:  translateY(-50%);
@@ -246,10 +247,16 @@ footer{
     box-shadow: 0 5px 10px #3337;
 }
 .container #next{
-    right: -70px;
+    right:-70px;
 }
 .container #prev{
-    left: -70px;
+    left:-70px;
+}
+
+.container #next:hover,
+.container #prev:hover{
+    background: #333;
+    color: #fff;    
 }
     
    /*Inventory*/
