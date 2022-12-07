@@ -153,7 +153,7 @@ header ul li a img{
         margin-bottom: 30px;
  }
 }  
-      /*slides*/   
+/*       /*slides*/   
 .container .slide-container{
     font-family: 'arial';
     margin: 0;
@@ -513,11 +513,11 @@ tr rd:first-child{
 }
 tr rd{
    padding-top: 20px;   
-}
+} */
 
    /*about Us*/
   
-.squares-wrapper-1 {
+/* .squares-wrapper-1 {
     display:flex;
     justify-content: right;
 }
@@ -558,4 +558,4 @@ tr rd{
     /*font-family: " ";*/
     color:#cea135;
     font-weight: 900;
-}
+} */
