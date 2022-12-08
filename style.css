@@ -5,7 +5,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'arial';
+
 }
 body{
     min-height: 100vh;
@@ -111,7 +111,7 @@ header ul li a img{
     margin-right: 0;
 }
 .inner_footer .footer_third h1{
-    font-family: 'arial';
+
     font-size: 22px;
     color: #fff;
     display: block;
@@ -119,7 +119,7 @@ header ul li a img{
     margin-bottom: 20px;  
 }
 .inner_footer .footer_third a{
-    font-family: 'arial';
+
     font-size: 18px;
     color: white;
     display: block;
@@ -134,7 +134,7 @@ header ul li a img{
 }
 .footer_third span{
     color: #fff;
-    font-family: 'arial';
+
     font-size: 16px;
     font-weight: 200;
     display: block;
@@ -153,7 +153,7 @@ header ul li a img{
 }  
        /*slides*/   
 .container .slide-container{
-    font-family: 'arial';
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -367,7 +367,7 @@ header ul li a img{
     padding: 8px 15px;
     display: block;
     margin: 5px auto;
-    font-family: 'arial';
+
     font-size: 15px;
     cursor: pointer;
     border: 1px solid #292929;
