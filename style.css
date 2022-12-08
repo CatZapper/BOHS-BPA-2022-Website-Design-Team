@@ -75,17 +75,15 @@ header ul li a img{
   header.sticky .logo,
   header.sticky ul li a{
     color: #000;
-}
-  
-  /* footer */
-  
+}  
+/* footer */ 
 .footer{
     width: 100vw;
     display: block;
     overflow: hidden;
     padding: 70px 0;
     box-sizing: border-box;
-    background-color: #181818a;
+    background-color: lightskyblue;
 }  
 .inner_footer{
     display: block;
@@ -256,13 +254,12 @@ header ul li a img{
     background: #333;
     color: #fff;    
 }
-    
-   /*Inventory*/
+/*Inventory*/
 .main-container{
+    padding-left: 30%; 
     line-height: 1.5;
     width: 90vw;
     margin: 0 auto;
-    padding: 40px 0;
 }
 .main-container > h2{
     text-align: center;
@@ -505,8 +502,7 @@ tr rd:first-child{
 tr rd{
    padding-top: 20px;   
 }
-
-   /*about Us*/
+/*about Us*/
 /*  
 .squares-wrapper-1 {
     display:flex;
