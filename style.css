@@ -1,7 +1,6 @@
 /* global Styles*/
 *{
     margin: 0;
-    box-sizing: border-box;
     list-style: none;
     text-decoration: none;
 }
@@ -76,6 +75,7 @@ header ul li a img{
 }  
 /* footer */ 
 .footer{
+    box-sizing: border-box;
     width: 100vw;
     display: block;
     overflow: hidden;
