@@ -81,6 +81,7 @@ header ul li a img{
     overflow: hidden;
     padding: 70px 0;
     box-sizing: border-box;
+    letter-spacing: 0.2em;
     background-color: lightskyblue;
 }  
 .inner_footer{
