@@ -109,7 +109,6 @@ header ul li a img{
     margin-right: 0;
 }
 .inner_footer .footer_third h1{
-
     font-size: 22px;
     color: #fff;
     display: block;
@@ -117,7 +116,6 @@ header ul li a img{
     margin-bottom: 20px;  
 }
 .inner_footer .footer_third a{
-
     font-size: 18px;
     color: white;
     display: block;
@@ -149,7 +147,7 @@ header ul li a img{
         margin-bottom: 30px;
  }
 }  
-       /*slides*/   
+/*slides*/   
 .container .slide-container{
 
     margin: 0;
@@ -445,7 +443,7 @@ header ul li a img{
     background: #1c00b5;
     color: #fff;
 }
-h1{
+.container h1{
     margin-bottom: 10px;
 }
 .container p{
