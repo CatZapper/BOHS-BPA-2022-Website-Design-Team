@@ -149,18 +149,18 @@ header ul li a img{
 }
 }   */
 /*slides*/   
-.container .slide-container{
+.slcontainer .slide-container{
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-transform: capitalize;
 }
-.container{
+.slcontainer{
     position: relative;
     perspective: 1000px;
 }
-.container .slide-container .slide{
+.slcontainer .slide-container .slide{
     border-radius: 5px;
     background: #fff;
     box-shadow: 0 5px 10px #3337;
@@ -185,46 +185,46 @@ header ul li a img{
     transform: scale(.5);
 }
 }
-.container .slide-container .slide .icon{
+.slcontainer .slide-container .slide .icon{
     position: absolute;
     top: 10px; 
     right: 15px; 
     font-size: 90px;
     color: #3498db;
 }
-.container .slide-container .slide .user{
+.slcontainer .slide-container .slide .user{
     display: flex;
     align-items: center;
 }
-.container .slide-container .slide .img{
+.slcontainer .slide-container .slide .img{
     height: 100px;
     width: 100px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 10px;
 }
-.container .slide-container .slide .user .user-info h3{
+.slcontainer .slide-container .slide .user .user-info h3{
     color: #333;
     font-size: 20px;
 }
-.container .slide-container .slide .user .user-info .stars i{
+.slcontainer .slide-container .slide .user .user-info .stars i{
     color: #3498db;
     font-size: 15px;
 }
-.container .slide-container .slide .text{
+.slcontainer .slide-container .slide .text{
     color: #333;
     font-size: 14px;
     padding-top: 15px;
     font-style: italic;
 }
-.container .slide-container{
+.slcontainer .slide-container{
     display: none;
 }
-.container .slide-container.active{
+.slcontainer .slide-container.active{
     display: block;   
 }
-.container #next,
-.container #prev{
+.slcontainer #next,
+.slcontainer #prev{
     position: absolute;
     top: 50%;
     transform:  translateY(-50%);
@@ -239,15 +239,15 @@ header ul li a img{
     border-radius: 50%;
     box-shadow: 0 5px 10px #3337;
 }
-.container #next{
+.slcontainer #next{
     right:-70px;
 }
-.container #prev{
+.slcontainer #prev{
     left:-70px;
 }
 
-.container #next:hover,
-.container #prev:hover{
+.slcontainer #next:hover,
+.slcontainer #prev:hover{
     background: #333;
     color: #fff;    
 }
@@ -425,7 +425,7 @@ header ul li a img{
   color: #fff;
 }
   /*Contact Us*/
-.container{
+.concontainer{
     font-size: 14px;
     width: 80%;
     margin: 50px auto;
@@ -444,10 +444,10 @@ header ul li a img{
     background: #1c00b5;
     color: #fff;
 }
-.container h1{
+.concontainer h1{
     margin-bottom: 10px;
 }
-.container p{
+.concontainer p{
     margin-bottom: 40px;
 }
 .input-row{
