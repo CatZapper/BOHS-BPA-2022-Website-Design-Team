@@ -499,46 +499,61 @@ tr rd{
    padding-top: 20px;   
 }
 /*about Us*/
-/*  
-.squares-wrapper-1 {
-    display:flex;
-    justify-content: right;
+.container-fluid {
+    background-color: #f1f2f6;
+    border-radius: .7rem;
 }
-.squares-wrapper-2 {
-    display:flex;
-    justify-content: left;
+.person h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Serif;
+    font-weight: strong;
 }
-.squares-wrapper > .squares {
-    width: 1000px;
+.about-container p {
+    text-align: center;
+    font-family: Sans-Serif;
+    font-size: 20px;
+    word-wrap: break-word;
 }
-.squares-wrapper > .squares > .square{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: -4px;
+.team-section {
+    background: #f1f2f6;
+    text-align: center;
+    border-radius: .7rem;
 }
-.square > .image-wrapper-1  img{
-    width: 45%;
-    height: 400px;
-    object-fit: cover;
-    float: left;    
-    margin: 15px 15px 0px 15px;
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    color: #333;
+    overflow: hidden;
 }
-.square > .image-wrapper-2  img{
-    width: 45%;
-    height: 400px;
-    object-fit: cover;
-    float: right;    
-    margin: 15px 15px 0px 15px;
+.team-section h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
 }
-.square > .square-text-wrapper {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 42px;
+.person {
+    float: left;
+    width: calc(100% / 4);
+    overflow: hidden;
+    padding: 40px 0;
+    transition: 0.4s;
 }
-.square > .square-text-wrapper h1 {
-    color:#cea135;
-    font-weight: 900;
+.person:hover {
+    background: #dfe4ea;
 }
-*/
+.person img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.p-name {
+    margin: 5px;
+    text-transform: uppercase;
+}
+.p-des {
+    font-style: italic;
+    color: #3498db;
+}
