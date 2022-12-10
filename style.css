@@ -307,7 +307,6 @@ header ul li a img{
 }
 .post-img{
     position: relative;
-    max-width: 20%;
 }
 .category-name{
     position: absolute;
@@ -367,6 +366,7 @@ header ul li a img{
     padding: 8px 15px;
     display: block;
     margin: 5px auto;
+
     font-size: 15px;
     cursor: pointer;
     border: 1px solid #292929;
