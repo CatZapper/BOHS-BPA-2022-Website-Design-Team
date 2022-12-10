@@ -12,6 +12,9 @@ body{
     padding-bottom: 70px;
     background-color: #fff;
 }
+img {
+    max-width: 80%;
+}
 /* navbar */ 
 header{
     position: fixed;
