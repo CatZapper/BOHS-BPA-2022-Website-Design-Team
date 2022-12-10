@@ -338,6 +338,7 @@ header ul li a img{
 }
 .post-content{
     padding: 25px;
+    max-width: 20%;
 }
 .post-content-top{
     background: #80ced7;
