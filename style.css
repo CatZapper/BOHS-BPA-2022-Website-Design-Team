@@ -322,7 +322,7 @@ header ul li a img{
     background: #00a7ea;
 }
 .truck .category-name{
-    background: #f03250;
+    background: #FFC0CB;
 }
 .van .category-name{
     background: #f0544f;
@@ -332,6 +332,9 @@ header ul li a img{
 }
 .eco_friendly .category-name{
     background: #a1e44d;
+}
+.airplane .category-name{
+    background: #FFD700;
 }
 .post-content{
     padding: 25px;
