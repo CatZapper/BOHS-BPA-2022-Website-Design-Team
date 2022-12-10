@@ -4,6 +4,9 @@
     list-style: none;
     text-decoration: none;
 }
+img {
+    max-width: 50%;
+}
 body{
     min-height: 100vh;
     display: flex;
@@ -11,9 +14,6 @@ body{
     justify-content: center;
     padding-bottom: 70px;
     background-color: #fff;
-}
-img {
-    max-width: 80%;
 }
 /* navbar */ 
 header{
